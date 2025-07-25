@@ -1,0 +1,28 @@
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #e6b17e;
+  border-radius: 25px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #3c2a21;
+}
+
+.search-bar input::placeholder {
+  color: #b08968;
+}
+
+.search-bar input:focus {
+  border-color: #3c2a21;
+  box-shadow: 0 0 0 3px rgba(60, 42, 33, 0.1);
+}
+
+.search-bar input:hover {
+  border-color: #3c2a21;
+}
